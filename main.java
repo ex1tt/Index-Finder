@@ -18,8 +18,6 @@ public class main {
 		System.out.println("Check for index of: ");
 		index = scanner.nextLine();
 		
-		int indexPlus = name.indexOf(index) + 1;
-		
 		if(name.indexOf(index) == -1) {
 			System.out.println("The character " + index + " is not in the string!");
 		}
